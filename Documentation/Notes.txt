@@ -1,0 +1,17 @@
+
+Features:
+
+- Provides complete control over all running processes
+- Advanced resource management
+- problem solving and optimizations become much easier with the help of the included tools
+- monitor CPU and memory usage graphs per process
+- view detailed processes information (with descriptions)
+- stop and start new processes
+- manage start-up programs
+- create presets
+- and much more.
+- It also comes with a built-in scripting language that allows you to automated tasks, and manage processes, set priorities etc. based on custom conditions (IF statements).
+
+- You can use WinTasks to easily find and remove unnecessary background processes as well as assigning more resources to demanding processes like games, realtime multimedia applications and cd writing softwares.
+
+ A powerful tool that provides advanced users with great flexibility and control over their system. 

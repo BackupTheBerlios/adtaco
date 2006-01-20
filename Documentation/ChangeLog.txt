@@ -1,0 +1,18 @@
+$Id: ChangeLog.txt,v 1.1 2006/01/20 15:14:58 gerrit-albrecht Exp $
+
+2005-01-20  Gerrit M. Albrecht  <gerrit-albrecht@users.berlios.de>
+
+	* Introduced an own splitter which updates it's content while
+	  being moved with the mouse.
+
+2005-01-19  Gerrit M. Albrecht  <gerrit-albrecht@users.berlios.de>
+
+	* Projekt bei BerliOS angemeldet.
+	* Benötige einen TreeListView, verschiedene Quellen bei CodeGuru
+	  und CodeProject angeschaut und mich zum Selbermachen entschlossen.
+
+2005-01-18  Gerrit M. Albrecht  <gerrit-albrecht@users.berlios.de>
+
+	* Erster GUI-Entwurf steht.
+	* Webseiten zur Prozess-Enumerierung herausgesucht.
+	* Vergleichbare Projekte heruntergeladen und ausprobiert.
