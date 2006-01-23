@@ -1,4 +1,10 @@
-$Id: ChangeLog.txt,v 1.1 2006/01/20 15:14:58 gerrit-albrecht Exp $
+$Id: ChangeLog.txt,v 1.2 2006/01/23 13:07:51 gerrit-albrecht Exp $
+
+2005-01-23  Gerrit M. Albrecht  <gerrit-albrecht@users.berlios.de>
+
+	* Registered Miraledon as separate project at BerliOS.
+	  It is needed to build AdTaCo.
+	* Added a simple website for both, Miraledon and AdTaCo.
 
 2005-01-20  Gerrit M. Albrecht  <gerrit-albrecht@users.berlios.de>
 
@@ -7,12 +13,12 @@ $Id: ChangeLog.txt,v 1.1 2006/01/20 15:14:58 gerrit-albrecht Exp $
 
 2005-01-19  Gerrit M. Albrecht  <gerrit-albrecht@users.berlios.de>
 
-	* Projekt bei BerliOS angemeldet.
-	* Benötige einen TreeListView, verschiedene Quellen bei CodeGuru
-	  und CodeProject angeschaut und mich zum Selbermachen entschlossen.
+	* Project registered at BerliOS.
+	* Need a TreeListView, looked at miscellaneous sources at CodeGuru
+	  and CodeProject, I think I better do it myself.
 
 2005-01-18  Gerrit M. Albrecht  <gerrit-albrecht@users.berlios.de>
 
-	* Erster GUI-Entwurf steht.
-	* Webseiten zur Prozess-Enumerierung herausgesucht.
-	* Vergleichbare Projekte heruntergeladen und ausprobiert.
+	* Concept for a first GUI finished.
+	* Searched for websites containing information about process enumeration.
+	* Tried out several comparable projects.
