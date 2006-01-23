@@ -1,3 +1,5 @@
+$Id: ReadMe.txt,v 1.2 2006/01/23 12:50:45 gerrit-albrecht Exp $
+
 AdTaCo - Advanced Task Controller
 
 Introduction
@@ -31,7 +33,6 @@ http://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=3D1FBAED
 
 Thanks go to
 ¯¯¯¯¯¯¯¯¯¯¯¯
-
 Roger Onslow
 
   Autosize a column to fit its content
@@ -39,4 +40,3 @@ Roger Onslow
 
   Stopping flicker during updates
   http://www.codeguru.com/cpp/controls/listview/miscellanious/article.php/c895/
-

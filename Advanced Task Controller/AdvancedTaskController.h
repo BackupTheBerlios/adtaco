@@ -1,4 +1,4 @@
-// $Id: AdvancedTaskController.h,v 1.1 2006/01/20 15:17:00 gerrit-albrecht Exp $
+// $Id: AdvancedTaskController.h,v 1.2 2006/01/23 12:56:10 gerrit-albrecht Exp $
 //
 // Advanced Task Controller
 // Copyright (C) 2006 by Gerrit M. Albrecht
@@ -21,10 +21,10 @@
 #pragma once
 
 #ifndef __AFXWIN_H__
-	#error "\"stdafx.h\" vor dieser Datei für PCH einschließen"
+	#error "\"StdAfx.h\" vor dieser Datei für PCH einschließen"
 #endif
 
-#include "resource.h"       // Hauptsymbole
+#include "Resource.h"       // Hauptsymbole
 
 class CAdvancedTaskController : public CWinApp
 {

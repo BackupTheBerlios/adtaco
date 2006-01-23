@@ -1,3 +1,4 @@
+$Id: Notes.txt,v 1.2 2006/01/23 12:50:45 gerrit-albrecht Exp $
 
 Features:
 
