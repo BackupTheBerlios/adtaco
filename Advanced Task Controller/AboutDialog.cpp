@@ -1,4 +1,4 @@
-// $Id: AboutDialog.cpp,v 1.1 2006/01/20 15:17:00 gerrit-albrecht Exp $
+// $Id: AboutDialog.cpp,v 1.2 2006/01/24 16:40:43 gerrit-albrecht Exp $
 //
 // Advanced Task Controller
 // Copyright (C) 2006 by Gerrit M. Albrecht
@@ -33,9 +33,14 @@ CAboutDialog::CAboutDialog()
  : CDialog(CAboutDialog::IDD)
 {
   EnableActiveAccessibility();
+
+  //LITEM li;
+  //m_link_homepage.GetItem(&li);
 }
 
 void CAboutDialog::DoDataExchange(CDataExchange* pDX)
 {
   CDialog::DoDataExchange(pDX);
+
+  DDX_Control(pDX, IDC_LINK_HOMEPAGE, m_link_homepage);
 }

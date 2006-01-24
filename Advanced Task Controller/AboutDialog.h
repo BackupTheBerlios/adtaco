@@ -1,4 +1,4 @@
-// $Id: AboutDialog.h,v 1.2 2006/01/23 12:58:27 gerrit-albrecht Exp $
+// $Id: AboutDialog.h,v 1.3 2006/01/24 16:40:43 gerrit-albrecht Exp $
 //
 // Advanced Task Controller
 // Copyright (C) 2006 by Gerrit M. Albrecht
@@ -25,6 +25,7 @@
 #endif
 
 #include "Resource.h"                                      // Hauptsymbole.
+#include "afxcmn.h"
 
 class CAboutDialog : public CDialog
 {
@@ -38,4 +39,7 @@ class CAboutDialog : public CDialog
 
   protected:
     DECLARE_MESSAGE_MAP()
+
+  protected:
+    CLinkCtrl m_link_homepage;
 };
