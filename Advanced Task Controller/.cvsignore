@@ -3,5 +3,7 @@
 *.ncb
 *.opt
 *.plg
+*.mak
+*.user
 Debug
 Release
