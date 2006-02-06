@@ -6,27 +6,27 @@
 </HEAD><BODY>
 <UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="&lt;&lt;YourApp&gt;&gt;-Hilfeindex">
+		<param name="Name" value="Advanced Task Controller-Hilfeindex">
 		<param name="Local" value="main_index.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Menüs">
+		<param name="Name" value="MenÃ¼s">
 		</OBJECT>
 	<UL>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Befehle im Menü 'Datei'">
+			<param name="Name" value="Befehle im MenÃ¼ 'Datei'">
 			<param name="Local" value="menu_file.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Befehle im Menü 'Bearbeiten'">
+			<param name="Name" value="Befehle im MenÃ¼ 'Bearbeiten'">
 			<param name="Local" value="menu_edit.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Befehle im Menü 'Ansicht'">
+			<param name="Name" value="Befehle im MenÃ¼ 'Ansicht'">
 			<param name="Local" value="menu_view.htm">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
-			<param name="Name" value="Befehle im Menü 'Hilfe'">
+			<param name="Name" value="Befehle im MenÃ¼ 'Hilfe'">
 			<param name="Local" value="menu_help.htm">
 			</OBJECT>
 	</UL>

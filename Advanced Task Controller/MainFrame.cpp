@@ -1,4 +1,4 @@
-// $Id: MainFrame.cpp,v 1.1 2006/01/20 15:17:00 gerrit-albrecht Exp $
+// $Id: MainFrame.cpp,v 1.2 2006/02/06 12:50:33 gerrit-albrecht Exp $
 //
 // Advanced Task Controller
 // Copyright (C) 2006 by Gerrit M. Albrecht
@@ -86,7 +86,7 @@ int CMainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
   }
 
   if (! m_wndStatusBar.Create(this) ||
-      ! m_wndStatusBar.SetIndicators(indicators, sizeof(indicators)/sizeof(UINT))) {
+      ! m_wndStatusBar.SetIndicators(indicators, sizeof(indicators) / sizeof(UINT))) {
     TRACE0("Fehler beim Erstellen der Statusleiste.\n");
     return -1;                                             // Fehler beim Erstellen.
   }
@@ -150,7 +150,7 @@ void CMainFrame::Dump(CDumpContext& dc) const
 {
   CFrameWnd::Dump(dc);
 }
-#endif //_DEBUG
+#endif
 
 void CMainFrame::OnSetFocus(CWnd* /*pOldWnd*/)
 {

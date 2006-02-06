@@ -1,4 +1,4 @@
-// $Id: ProcessesView.h,v 1.1 2006/01/20 15:19:09 gerrit-albrecht Exp $
+// $Id: ProcessesView.h,v 1.2 2006/02/06 12:50:33 gerrit-albrecht Exp $
 //
 // Advanced Task Controller
 // Copyright (C) 2006 by Gerrit M. Albrecht
@@ -40,6 +40,7 @@ class CProcessesView : public CTreeListView
 
   protected:
     DECLARE_MESSAGE_MAP()
-public:
-	afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
+
+  public:
+    afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
 };
