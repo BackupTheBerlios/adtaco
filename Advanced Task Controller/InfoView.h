@@ -1,4 +1,4 @@
-// $Id: InfoView.h,v 1.1 2006/01/20 15:17:00 gerrit-albrecht Exp $
+// $Id: InfoView.h,v 1.2 2006/02/07 15:59:18 gerrit-albrecht Exp $
 //
 // Advanced Task Controller
 // Copyright (C) 2006 by Gerrit M. Albrecht
@@ -25,7 +25,7 @@ class CInfoView : public CView
   DECLARE_DYNCREATE(CInfoView)
 
   protected:
-	CInfoView();           // protected constructor used by dynamic creation
+	CInfoView();                  // protected constructor used by dynamic creation
 	virtual ~CInfoView();
 
 	CTabCtrl m_tabs;
@@ -40,16 +40,13 @@ class CInfoView : public CView
 #endif
 #endif
 
-protected:
-	DECLARE_MESSAGE_MAP()
-public:
-	afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
-protected:
-	void AddTab(int pos, LPWSTR name);
-public:
-	afx_msg void OnSize(UINT nType, int cx, int cy);
-public:
+  protected:
+    void AddTab(int pos, LPWSTR name);
+
+    DECLARE_MESSAGE_MAP()
+
+  public:
+    afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
+    afx_msg void OnSize(UINT nType, int cx, int cy);
     afx_msg BOOL OnEraseBkgnd(CDC* pDC);
 };
-
-
