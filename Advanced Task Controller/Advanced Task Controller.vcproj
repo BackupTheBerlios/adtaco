@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="8,00"
+	Version="9,00"
 	Name="Advanced Task Controller"
 	ProjectGUID="{FF905DBE-1AA6-484B-BF73-A86A99A4B68D}"
 	RootNamespace="AdvancedTaskController"
 	Keyword="MFCProj"
+	TargetFrameworkVersion="131072"
 	>
 	<Platforms>
 		<Platform
@@ -44,7 +45,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="..\..\Miraledon\Miraledon\src"
+				AdditionalIncludeDirectories="..\..\Miraledon"
 				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -52,7 +53,7 @@
 				UsePrecompiledHeader="2"
 				WarningLevel="4"
 				WarnAsError="false"
-				Detect64BitPortabilityProblems="true"
+				Detect64BitPortabilityProblems="false"
 				DebugInformationFormat="4"
 			/>
 			<Tool
@@ -72,6 +73,8 @@
 				LinkIncremental="2"
 				GenerateDebugInformation="true"
 				SubSystem="2"
+				RandomizedBaseAddress="1"
+				DataExecutionPrevention="0"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -91,9 +94,6 @@
 			/>
 			<Tool
 				Name="VCAppVerifierTool"
-			/>
-			<Tool
-				Name="VCWebDeploymentTool"
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
@@ -128,14 +128,14 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="..\..\Miraledon\Miraledon\src"
+				AdditionalIncludeDirectories="..\..\Miraledon"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG"
 				MinimalRebuild="false"
 				RuntimeLibrary="2"
 				UsePrecompiledHeader="2"
 				WarningLevel="4"
 				WarnAsError="false"
-				Detect64BitPortabilityProblems="true"
+				Detect64BitPortabilityProblems="false"
 				DebugInformationFormat="3"
 			/>
 			<Tool
@@ -157,6 +157,8 @@
 				SubSystem="2"
 				OptimizeReferences="2"
 				EnableCOMDATFolding="2"
+				RandomizedBaseAddress="1"
+				DataExecutionPrevention="0"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -176,9 +178,6 @@
 			/>
 			<Tool
 				Name="VCAppVerifierTool"
-			/>
-			<Tool
-				Name="VCWebDeploymentTool"
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
@@ -218,18 +217,6 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="..\..\Miraledon\Miraledon\src\HyperlinkCtrl.cpp"
-				>
-				<FileConfiguration
-					Name="Debug|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						AdditionalIncludeDirectories="..\..\Miraledon\Miraledon\src"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
 				RelativePath=".\InfoView.cpp"
 				>
 				<FileConfiguration
@@ -254,43 +241,7 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="..\..\Miraledon\Miraledon\src\MiraSplitter.cpp"
-				>
-				<FileConfiguration
-					Name="Debug|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						AdditionalIncludeDirectories="..\..\Miraledon\Miraledon\src"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="..\..\Miraledon\Miraledon\src\OperatingSystem.cpp"
-				>
-				<FileConfiguration
-					Name="Debug|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						AdditionalIncludeDirectories="..\..\Miraledon\Miraledon\src"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
 				RelativePath=".\ProcessesView.cpp"
-				>
-				<FileConfiguration
-					Name="Debug|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						AdditionalIncludeDirectories="..\..\Miraledon\Miraledon\src"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="..\..\Miraledon\Miraledon\src\ProcessInformation.cpp"
 				>
 				<FileConfiguration
 					Name="Debug|Win32"
@@ -322,38 +273,6 @@
 					/>
 				</FileConfiguration>
 			</File>
-			<File
-				RelativePath="..\..\Miraledon\Miraledon\src\TreeListCtrl.cpp"
-				>
-				<FileConfiguration
-					Name="Debug|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						AdditionalIncludeDirectories="..\..\Miraledon\Miraledon\src"
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="..\..\Miraledon\Miraledon\src\TreeListView.cpp"
-				>
-				<FileConfiguration
-					Name="Debug|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						AdditionalIncludeDirectories="..\..\Miraledon\Miraledon\src"
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						AdditionalIncludeDirectories="..\..\Miraledon\Miraledon\src"
-					/>
-				</FileConfiguration>
-			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
@@ -369,10 +288,6 @@
 				>
 			</File>
 			<File
-				RelativePath="..\..\Miraledon\Miraledon\src\HyperlinkCtrl.h"
-				>
-			</File>
-			<File
 				RelativePath=".\InfoView.h"
 				>
 			</File>
@@ -381,19 +296,7 @@
 				>
 			</File>
 			<File
-				RelativePath="..\..\Miraledon\Miraledon\src\MiraSplitter.h"
-				>
-			</File>
-			<File
-				RelativePath="..\..\Miraledon\Miraledon\src\OperatingSystem.h"
-				>
-			</File>
-			<File
 				RelativePath=".\ProcessesView.h"
-				>
-			</File>
-			<File
-				RelativePath="..\..\Miraledon\Miraledon\src\ProcessInformation.h"
 				>
 			</File>
 			<File
@@ -422,14 +325,6 @@
 			</File>
 			<File
 				RelativePath=".\StdAfx.h"
-				>
-			</File>
-			<File
-				RelativePath="..\..\Miraledon\Miraledon\src\TreeListCtrl.h"
-				>
-			</File>
-			<File
-				RelativePath="..\..\Miraledon\Miraledon\src\TreeListView.h"
 				>
 			</File>
 		</Filter>

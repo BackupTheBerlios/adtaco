@@ -1,4 +1,4 @@
-// $Id: MainFrame.cpp,v 1.2 2006/02/06 12:50:33 gerrit-albrecht Exp $
+// $Id: MainFrame.cpp,v 1.3 2008/04/26 22:08:25 gerrit-albrecht Exp $
 //
 // Advanced Task Controller
 // Copyright (C) 2006 by Gerrit M. Albrecht
@@ -23,7 +23,8 @@
 #include "MainFrame.h"
 #include "InfoView.h"
 #include "ProcessesView.h"
-#include "ProcessInformation.h"
+
+#include <Miraledon/ProcessInformation.h>
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -262,7 +263,7 @@ BOOL CALLBACK MyProcessEnumerator(DWORD dwPID, WORD wTask, LPCTSTR szProcess, LP
 
 void CMainFrame::OnViewOptions()
 {
-  CProcessInformation pi;
+  MProcessInformation pi;
 
   pi.EnumProcs32((PROCENUMPROC) MyProcessEnumerator, (LPARAM) this);
 }

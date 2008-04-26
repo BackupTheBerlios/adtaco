@@ -1,4 +1,4 @@
-// $Id: ProcessesView.cpp,v 1.1 2006/01/20 15:19:09 gerrit-albrecht Exp $
+// $Id: ProcessesView.cpp,v 1.2 2008/04/26 22:08:25 gerrit-albrecht Exp $
 //
 // Advanced Task Controller
 // Copyright (C) 2006 by Gerrit M. Albrecht
@@ -21,9 +21,9 @@
 #include "StdAfx.h"
 #include "ProcessesView.h"
 
-IMPLEMENT_DYNCREATE(CProcessesView, CTreeListView)
+IMPLEMENT_DYNCREATE(CProcessesView, MTreeListView)
 
-BEGIN_MESSAGE_MAP(CProcessesView, CTreeListView)
+BEGIN_MESSAGE_MAP(CProcessesView, MTreeListView)
 	ON_WM_CREATE()
 END_MESSAGE_MAP()
 
@@ -41,20 +41,20 @@ CProcessesView::~CProcessesView()
 #ifdef _DEBUG
 void CProcessesView::AssertValid() const
 {
-  CTreeListView::AssertValid();
+  MTreeListView::AssertValid();
 }
 
 #ifndef _WIN32_WCE
 void CProcessesView::Dump(CDumpContext& dc) const
 {
-  CTreeListView::Dump(dc);
+  MTreeListView::Dump(dc);
 }
 #endif
 #endif
 
 int CProcessesView::OnCreate(LPCREATESTRUCT lpCreateStruct)
 {
-  if (CTreeListView::OnCreate(lpCreateStruct) == -1)
+  if (MTreeListView::OnCreate(lpCreateStruct) == -1)
     return -1;
 
 #if 0

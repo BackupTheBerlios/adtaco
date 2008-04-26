@@ -1,4 +1,4 @@
-// $Id: AboutDialog.cpp,v 1.2 2006/01/24 16:40:43 gerrit-albrecht Exp $
+// $Id: AboutDialog.cpp,v 1.3 2008/04/26 22:08:25 gerrit-albrecht Exp $
 //
 // Advanced Task Controller
 // Copyright (C) 2006 by Gerrit M. Albrecht
@@ -44,3 +44,4 @@ void CAboutDialog::DoDataExchange(CDataExchange* pDX)
 
   DDX_Control(pDX, IDC_LINK_HOMEPAGE, m_link_homepage);
 }
+

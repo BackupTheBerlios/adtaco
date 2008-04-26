@@ -1,4 +1,4 @@
-// $Id: MainFrame.h,v 1.1 2006/01/20 15:17:00 gerrit-albrecht Exp $
+// $Id: MainFrame.h,v 1.2 2008/04/26 22:08:25 gerrit-albrecht Exp $
 //
 // Advanced Task Controller
 // Copyright (C) 2006 by Gerrit M. Albrecht
@@ -20,7 +20,7 @@
 
 #pragma once
 
-#include "MiraSplitter.h"
+#include <Miraledon/Splitter.h>
 
 class CMainFrame : public CFrameWnd
 {
@@ -44,10 +44,10 @@ class CMainFrame : public CFrameWnd
 #endif
 
   protected:
-    CStatusBar    m_wndStatusBar;
-    CToolBar      m_wndToolBar;
-    CMiraSplitter m_splitter;
-	BOOL          m_splitter_created;
+    CStatusBar  m_wndStatusBar;
+    CToolBar    m_wndToolBar;
+    MSplitter   m_splitter;
+	BOOL        m_splitter_created;
 
   protected:
 	virtual BOOL OnCreateClient(LPCREATESTRUCT lpcs, CCreateContext* pContext);
@@ -59,6 +59,6 @@ class CMainFrame : public CFrameWnd
 	afx_msg void OnClose();
 	afx_msg void OnSize(UINT nType, int cx, int cy);
 	afx_msg void OnViewOptions();
-public:
     afx_msg BOOL OnEraseBkgnd(CDC* pDC);
 };
+

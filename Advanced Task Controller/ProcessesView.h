@@ -1,4 +1,4 @@
-// $Id: ProcessesView.h,v 1.2 2006/02/06 12:50:33 gerrit-albrecht Exp $
+// $Id: ProcessesView.h,v 1.3 2008/04/26 22:08:25 gerrit-albrecht Exp $
 //
 // Advanced Task Controller
 // Copyright (C) 2006 by Gerrit M. Albrecht
@@ -20,9 +20,9 @@
 
 #pragma once
 
-#include "TreeListView.h"
+#include <Miraledon/TreeListView.h>
 
-class CProcessesView : public CTreeListView
+class CProcessesView : public MTreeListView
 {
   DECLARE_DYNCREATE(CProcessesView)
 

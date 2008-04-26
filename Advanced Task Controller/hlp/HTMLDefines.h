@@ -27,6 +27,11 @@
 // See these sources for detailed information regarding the
 // Microsoft Foundation Classes product.
 
+#ifndef __AFX_HH_H__
+#define __AFX_HH_H__
+
+#pragma once
+
 // Non-Client HitTest help IDs
 #define HID_HT_NOWHERE                          0x40000
 #define HID_HT_CAPTION                          0x40002
@@ -300,3 +305,5 @@
 #define AFX_HIDW_DOCKBAR_FLOAT                  0x5E81F
 
 /////////////////////////////////////////////////////////////////////////////
+
+#endif // __AFX_HH_H__
