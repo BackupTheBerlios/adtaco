@@ -1,12 +1,6 @@
-*.manifest
-*.res
+BuildLog.htm
 *.obj
 *.exp
 *.ilk
 *.lib
 *.pdb
-*.pch
-BuildLog.htm
-mt.dep
-vc90.idb
-vc90.pdb
